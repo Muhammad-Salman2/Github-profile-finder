@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Let's find your Github profile</h1>
+        <img src="github-6980894_960_720.webp" alt="github-logo" s>
+    </div>
+    <center>
+        <form id="form">
+            <input type="text" placeholder="Serch by username" id="input">
+
+        </form>
+    </center>
+    
+    <center>
+        <div id="container">
+
+            <div id="imgdiv">
+                <img src="https://avatars.githubusercontent.com/u/179370295?v=4" id="userImg">
+
+                <div id="userdata">
+                    <div id="name">
+                        
+                    </div>
+
+
+                    <div id="following">
+                        <div></div>
+                    </div>
+
+
+                    <div id="follower">
+                        <div></div>
+                    </div>
+
+
+                    <div id="repos">
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <button id="view-profile"><a id="anchorTag" >View profile</a></button>
+        </div> 
+</center>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
